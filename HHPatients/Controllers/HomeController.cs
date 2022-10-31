@@ -13,13 +13,11 @@ namespace HHPatients.Controllers
             _logger = logger;
         }
 
-        // returns the home view/page (index)
         public IActionResult Index()
         {
             return View();
         }
 
-        // returns the privacy view
         public IActionResult Privacy()
         {
             return View();
